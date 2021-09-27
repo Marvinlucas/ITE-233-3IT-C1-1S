@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Marvin
+</title>
+</head>
+<body style = "text-align:center;">
+<h1 style = "color:green;" >
+Sas11 Skillss Building
+</h1>
+<p id = "GFG_UP" style =
+"font-size: 19px; font-weight: bold;">
+</p>
+<button onclick = "sas11()">
+click here
+</button>
+<p id = "GFG_DOWN" style =
+"color: green; font-size: 24px; font-weight: bold;">
+</p>
+<script>
+var el_up = document.getElementById("GFG_UP");
+var el_down = document.getElementById("GFG_DOWN");
+el_up.innerHTML = "Click the button to se my Facebook ";
+function sas11() {
+	  var a = document.createElement('a');  
+      var linkText = document.createTextNode("My Facebook");  
+      a.appendChild(linkText);  
+      a.title = "my title text";
+      a.href = "https://www.facebook.com/Tongskie2/";  
+      document.body.appendChild(a);
+}
+</script>
+</body>
+</html>
